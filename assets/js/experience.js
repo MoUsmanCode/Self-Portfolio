@@ -5,31 +5,31 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
-    title: "Software Development Intern",
-    cardImage: "assets/images/experience-page/flipkart.jpg",
-    place: "Flipkart",
-    time: "(May, 2020 - present)",
-    desp: "<li>Worked to migrate Flipkart lite’s product page to AMP pages so that they load up instantly.</li> <li>Made changes in the current progressive web app of Flipkart to react to different actions performed on AMP page.</li> <li>Created a node module called “fk-amp” which abstracts all the files and middlewares and can be easily imported and used from express server.</li>",
+    title: "Junior Financial Aid Assistant",
+    cardImage: "assets/images/experience-page/Experience1.png",
+    place: "Ontario Tech University",
+    time: "(May, 2024 - Present)",
+    desp: "<li>Designed and implemented Python scripts to automate data entry processes, reducing manual work by 25%.</li> <li>Developed SQL queries to extract and analyze financial aid data from the ERP system (Banner), improving reporting accuracy.</li> <li>Created a web-based dashboard using React and Flask to streamline payment plan workflows for tracking and managing student accounts.</li> <li>Integrated encryption protocols to ensure data security and compliance for student funding records.</li> <li>Collaborated with cross-functional teams to prototype an automated notification system for financial aid updates.</li> <li>Applied machine learning algorithms to predict trends in student funding needs, optimizing resource allocation.</li> <li>Maintained comprehensive documentation and conducted regular audits to ensure the reliability of data pipelines.</li>"  
   },
   {
-    title: "Student Developer",
-    cardImage: "assets/images/experience-page/gsoc.png",
-    place: "Google Summer Of Code",
-    time: "(Mar - Aug, 2019)",
-    desp: "<li>Worked with MOZILLA as a part of Google Summer Of Code.</li><li>Worked on Extension Activity Monitor which is a privileged extension for Firefox that uses the activityLog API (privileged API) to monitor the activities of the other installed extensions.</li><li>The activityLog API listens for logs from other installed extensions.</li>",
+    title: "President - Project Developers OTU",
+    cardImage: "assets/images/experience-page/image(1).jpg",
+    place: "Ontario Tech University",
+    time: "(Aug, 2024 - Present)",
+    desp: "<li>Led the club’s strategic development, overseeing initiatives to enhance members’ programming skills and career growth.</li> <li>Organized and executed events such as coding challenges, collaborative hackathons, and virtual coding escape rooms.</li> <li>Fostered a learning environment, mentoring members in Python, Java, JavaScript, C++, and software development methodologies.</li> <li>Collaborated with officers and members to ensure teamwork, inclusivity, and productivity within the club.</li> <li>Managed resources effectively, including budgeting and sourcing materials for smooth event execution.</li> <li>Represented the club to the university and broader community, promoting innovation and collaboration in software development.</li> <li>Guided members in developing portfolios, improving problem-solving skills, and staying updated on emerging technologies.</li>"  
   },
   {
-    title: "Research Intern",
-    cardImage: "assets/images/experience-page/IIT_Bombay.jpg",
-    place: "IIT, Bombay",
-    time: "(Dec, 19 - Jan, 20)",
-    desp: "<li>Worked on the project “LTI (Learning Tools Interoperability) 2.0 standards Implementation for ekShiksha.</li><li>Designed a software that would help faculty to create a quiz using the questions from the database based on his/her choice of topics and he should be provided with various facilities and options to create a quiz of his choice.</li>",
+    title: "Game Day Staff",
+    cardImage: "assets/images/experience-page/Experience3.png",
+    place: "Ontario Tech University",
+    time: "(May, 2023 - April 28)",
+    desp: "<li>Managed game day logistics, ensuring seamless event execution under time constraints.</li> <li>Utilized problem-solving skills to quickly resolve technical and logistical challenges.</li> <li>Demonstrated adaptability and decision-making in high-pressure situations.</li> <li>Provided customer support, effectively handling inquiries and resolving issues in real time.</li> <li>Collaborated with event staff to optimize operations, ensuring an efficient workflow.</li>"  
   },
 ];
 
 const showCards2 = () => {
   let output = "";
-  exp.forEach(
+  exp.forEach(  
     ({ title, cardImage, place, time, desp }) =>
       (output += `        
     <div class="col gaap" data-aos="fade-up" data-aos-easing="linear" data-aos-delay="100" data-aos-duration="400"> 
@@ -57,35 +57,7 @@ const showCards2 = () => {
 };
 document.addEventListener("DOMContentLoaded", showCards2);
 
-// Volunteership Cards
 
-const volunteership = document.querySelector(".volunteership");
-const volunteershipcards = [
-  {
-    title: "GirlScript Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/1.jpg",
-    description:
-      "Responsible for handling the projects GirlScript App and GirlScript Website Boilerplate.",
-  },
-  {
-    title: "StudentCode-in 2020",
-    cardImage: "assets/images/experience-page/2.jpg",
-    description:
-      "Responsible for handling open source contributions for the project Awesome Developer Portfolio.",
-  },
-  {
-    title: "PClub Summer Of Code 2020",
-    cardImage: "assets/images/experience-page/3.jpg",
-    description:
-      "Mentoring for the projects Deep Pixel, AutoVaidya, Just Resume and Doc2pen.",
-  },
-  {
-    title: "Hakin-Codes",
-    cardImage: "assets/images/experience-page/4.jpg",
-    description:
-      "Mentoring for the open source projects Deeppixel, Awesome Developer Portfolios and Doc2Pen.",
-  },
-];
 
 const showCards = () => {
   let output = "";
@@ -111,109 +83,11 @@ document.addEventListener("DOMContentLoaded", showCards);
 const hackathonsection = document.querySelector(".hackathon-section");
 const mentor = [
   {
-    title: "The Uplift Project",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/uplift.png",
-    desp: "I would be responsible for guiding 100s of participants across the globe in their first steps towards Applied Data Science and building end-to-end machine learning projects.",
-    href: "https://uplift.girlscript.tech/",
-  },
-  {
-    title: "ULHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/ulhacks.png",
-    desp: "ULHacks is a 36 hour long hackathon organized with an aim to enable students to create a project which empowers learning.",
-    href: "https://ulhacks.com/",
-  },
-  {
-    title: "WaffleHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/wafflehacks.png",
-    desp: "WaffleHacks 2021 is an upcoming 48-hour student-organized hackathon with an aim to bring technical solutions to local communities and small businesses.",
-    href: "https://wafflehacks.org/",
-  },
-  {
-    title: "Elevate Tech",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/elevate.png",
-    desp: "Elevate Hacks is an upcoming all-female virtual hackathon coming from AUGUST 14th to 15th.",
-    href: "https://elevatetech.codes/",
-  },
-  {
-    title: "PitchTeen",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/pitchteen.png",
-    desp: "PitchTeen 2.0 was a tech startup competition for female and non-binary communities in high school and college from all over the world with an aim to create a safe and encouraging place for women to help them explore tech and business fields.",
-    href: "https://www.linkedin.com/company/pitchteen/about/",
-  },
-  {
-    title: "Hack-A-Solution",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hackasolution.png",
-    desp: "Hack-a-Solution 2021 is a 24 hour long hackathon organized by Frisco students to raise awareness of world issues through technology.",
-    href: "https://hackasolution.devpost.com/",
-  },
-  {
-    title: "UniGlobe Hacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/uniglobe.png",
-    desp: "UniGlobe Hacks 2.0 is an upcoming 4-day long hackathon run by high school students held during 28-31 July 2021.",
-    href: "https://uniglobe-hacks.devpost.com/",
-  },
-  {
-    title: "AtlasHacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/atlas.png",
-    desp: "AtlasHacks II is a 3-day virtual hackathon that aims to foster creativity within hackers all around the world.",
-    href: "https://atlashacks2.devpost.com/",
-  },
-  {
-    title: "NeoHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/neo.png",
-    desp: "NeoHacks is an upcoming 48-hour hackathon taking place July 23-25, 2021 where hundreds of students from around the world will come together virtually to learn new skills, meet new friends, and build awesome projects. We provide beginner-friendly workshops, mentorship, fun games, and more.",
-    href: "https://neohacks.org/",
-  },
-  {
-    title: "Mission Inspired",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/mission.png",
-    desp: "InspireEd Hacks is a nationwide initiative organized by the student-for-student nonprofit, Mission InspirEd, challenging students ages 10-18 to synthesize their creativity and coding experience into a product beneficial to the educational community.",
-    href: "https://www.missioninspired.org/hackathon",
-  },
-  {
-    title: "Hack3",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/hack3.png",
-    desp: "Hack3 2021 is an upcoming global online hackathon that aims to enable high school students to learn computer science, with a broader message of (everyone can code) targeting underrepresented demographics to improve diversity and inclusion of individuals in the computer technology space.",
-    href: "https://hack3.co/",
-  },
-  {
-    title: "JITHack",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/jithack.png",
-    desp: "JITHack is an upcoming virtual design and development hackathon organized by the students of Jyothy Institute of Technology, Bengaluru on June 26, 2021, where participants have 24 hours to build something incredible.",
-    href: "https://jithack.netlify.app/",
-  },
-  {
-    title: "Recess Hacks",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/recess.png",
-    desp: "Recess Hacks is an upcoming hackathon for high school students in the Greater Toronto Area that strives to encourage innovation among high school students and get involved in technology.",
-    href: "https://recesshacks.com/",
-  },
-  {
-    title: "Citro Tech",
-    subtitle: "Mentor",
-    image: "assets/images/experience-page/citro.png",
-    desp: "Citro Hacks 2021 is an upcoming all-inclusive online hackathon organized by Citro Tech, a student led organization dedicated to empowering minorities in the tech field</li>",
-    href: "https://citro.tech/",
-  },
-  {
-    title: "NHacks",
-    subtitle: "Judge",
-    image: "assets/images/experience-page/nhacks.png",
-    desp: "NHacks VI was a hackathon that aimed to encourage students everywhere to develop skills in computer science by creating tangible products that they're proud of. It initially started as Michigan's largest high school hackathon.",
-    href: "https://nhacks-vi.devpost.com/",
+    title: "Hack Hive",
+    subtitle: "Participant",
+    image: "assets/images/experience-page/hackhive.png",
+    desp: "I'm excited to participate in HackHive, where I'll collaborate with my team to tackle real-world challenges and apply my technical skills in a fast-paced environment. With the theme AI for a Better Tomorrow, I'll be exploring how machine learning and AI-driven solutions can optimize systems, enhance decision-making, and contribute to innovative, impactful technologies.",
+    href: "https://www.instagram.com/p/DEs1DYRR7RH/",
   },
 ];
 
